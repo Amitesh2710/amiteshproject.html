@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>E-Commerce Website</title>
+    <style>
+        body {
+            margin: 0;
+           
+            background: url(' https://img.freepik.com/premium-photo/word-e-commerce-written-with-white-solid-letters_118047-1957.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color:black;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .product {
+            background: rgba(255, 255, 255, 0.7);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+        }
+        
+        
+        .product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: black; 
+}
+
+        .product p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        
+    color: black; /* Add this line to change the font color to black */
+}
+
+        .product .price {
+            font-size: 1.5em;
+            color:black ;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.6);
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\amite\OneDrive\Pictures\Saved Pictures\img.jpeg">
+
+        <h1>Amitesh E-commerce</h1>
+    </header
+
+    <div class="products">
+        <div class="product">
+            <img src="C:\Users\amite\OneDrive\Pictures\Saved Pictures\tshirt.jpeg" >
+            <h2>Product 1</h2>
+            <p>Tshirt.</p>
+            <p class="price">Rs.499</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\amite\OneDrive\Pictures\Saved Pictures\jeans.jpeg" >
+            <h2>Product 2</h2>
+            <p>Baggy Jeans.</p>
+            <p class="price">Rs.799</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\amite\OneDrive\Pictures\Saved Pictures\shoes..jpeg" >
+            <h2>Product 3</h2>
+                <p>Shoes.</p>
+            <p class="price">Rs.999</p>
+            
+         </div>
+        </body>
+        </html>
+        
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Order Confirmation</title>
+            <style>
+                /* Apply white color  on the page */
+                body {
+                    color: white;
+                    background-color: #333; /* Dark background for contrast */
+                    font-family:  sans-serif;
+                    margin: 0;
+                    padding: 0;
+                }
+        
+                header {
+                    background-color: #444;
+                    text-align: center;
+                    padding: 20px;
+                }
+        
+                h1 {
+                    margin: 0;
+                }
+        
+                .order-confirmation {
+                    background-color: #555;
+                    padding: 20px;
+                    margin: 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+        
+                h2, h3 {
+                    color: white;
+                }
+        
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+        
+                th, td {
+                    padding: 8px 12px;
+                    border: 1px solid #ddd;
+                    text-align: left;
+                }
+        
+                th {
+                    background-color: #666;
+                }
+        
+                td {
+                    background-color: #444;
+                }
+        
+                .cta {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+        
+                button {
+                    background-color:green;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+        
+                button:hover {
+                    background-color:red;
+                }
+                  
+                footer {
+                    text-align: center;
+                    padding: 10px;
+                    background-color: #333;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>Thank You for Your Order😊</h1>
+            </header>
+            
+            <section class="order-confirmation">
+                <h2>Order Number: 1111</h2>
+                
+                <h3>Order Details:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tshirt</td>
+                            <td>2</td>
+                            <td>Rs.999</td>
+                        </tr>
+                        <tr>
+                            <td>Baggy Jeans</td>
+                            <td>1</td>
+                            <td>Rs.799</td>
+                        </tr>
+                        <tr>
+                            <td>Shoes</td>
+                            <td>1</td>
+                            <td>Rs.999</td> 
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Shipping Information:</h3>
+                <p><strong>Name:</strong> Amitesh Pandey</p>
+                <p><strong>Address:</strong> PARUL UNIVERSITY, Waghodia, Vadodara.</p>
+                <p><strong>Estimated Delivery Date:</strong> March 2, 2025.</p>
+                
+                <h3>Total: Rs.2997</h3>
+                <div class="discount-container">
+                    <h1>Summer Sale Offer!</h1>
+                    <p class="discount">20% OFF (On Your First Purchase) </p>
+                    <p>Use the code below:</p>
+                    <p class="code">AMITESH-20</p>
+                     </div>
+            
+                <div class="cta">
+                    <button onclick=>CONFIRM ORDER</button>
+                </div>
+                <div class="cta">
+                <button onclick=>CANCEL ORDER</button>
+            </section>
+            
+            <footer>
+                
+            </footer>
+        </body>
+        </html>
+        
+        
